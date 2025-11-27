@@ -3,6 +3,8 @@ import StudybotIcon from './components/StudybotIcon'
 import ChatForm from './components/ChatForm'
 import ChatMessage from './components/ChatMessage'
 import {customInfo} from './components/customInfo'
+import wavyIcon from './assets/wavy.png'
+
 
 const App = () => {
   const [chatHistory,setChatHistory]=useState([{
@@ -80,7 +82,7 @@ const App = () => {
 
           {/*the wavy icon image and its css properties are given upon here*/}
           <p className='message-text'>
-            Hey there <img src=" wavy.png " alt="" style={{width:'2rem',height:'2rem',marginLeft:'-0.5em',position:'absolute',marginTop:'-0.5em',position:'sticky',visibility:'visible',top:'15px'}} /> <br />How can I help you today?
+            Hey there <img src={wavyIcon} alt="waving you" style={{width:'2rem',height:'2rem',marginLeft:'-0.5em',marginTop:'-0.5em',position:'sticky',visibility:'visible',top:'15px'}} /> <br />How can I help you today?
           </p>
           
             </div> 

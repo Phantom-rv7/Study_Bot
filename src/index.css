@@ -15,7 +15,7 @@ body{
   align-items: center;
   justify-content: center;
   image-rendering: auto;
-  background-image: url('../WhatsApp\ Image\ 2025-04-03\ at\ 00.36.26_069be065.jpg');
+  background-image: url('../src/assets/bg.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed; 
   background-size: 100% 100%;
